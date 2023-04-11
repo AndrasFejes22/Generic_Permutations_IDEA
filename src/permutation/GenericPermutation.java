@@ -50,7 +50,8 @@ public class GenericPermutation<T extends Comparable<? super T>>{
         return numbers;
     }
 
-    public List<T> printAllRecursive(T input){
+    public List<T> printAllPermutations(T input){
+
         T[] inputToArray = itemToArray(input);
         int n = inputToArray.length;
         List<T> LIST = new ArrayList<>();
